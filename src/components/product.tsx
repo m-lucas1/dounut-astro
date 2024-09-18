@@ -72,12 +72,12 @@ export const Product = ({ product }: { product: ProductType }) => {
                         )}
                     </p>
                 </div>
-                <button
+                {/* <button
                     className="bg-background2 px-4 rounded-xl"
                     onClick={() => addToCart(selectedVariant)}
                 >
                     {buttonText}
-                </button>
+                </button> */}
             </div>
             <ProductBody body={product.body} table={product.table} />
             <p className="text-text mb-4 font-semibold">Related do(u)nuts</p>
